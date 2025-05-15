@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://www.glampingdelgato.com
+
+# Sitemaps
+Sitemap: http://www.glampingdelgato.com/sitemap.xml
+Sitemap: http://www.glampingdelgato.com/sitemap-gimnasios.xml
