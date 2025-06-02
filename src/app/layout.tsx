@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { montserrat } from "../app/fonts";
+import FloatingWhatsappButton from "../../components/FloatWppBtn";
 
 export const metadata: Metadata = {
   title: "GLAMTO",
@@ -49,6 +50,7 @@ export default function RootLayout({
       </head>
       <body className={`${montserrat.className} antialiased relative`}>
         {children}
+        <FloatingWhatsappButton />
       </body>
     </html>
   );

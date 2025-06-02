@@ -23,7 +23,7 @@ export default function Footer() {
             alt="Gimnasios para gatos"
           />
         </Link>
-        <Link href="https://wa.me/message/4Y4RFTTWZYIFK1">
+        {/* <Link href="https://wa.me/message/4Y4RFTTWZYIFK1">
           <Image
             src="/whatsapp.webp"
             className="hover:scale-105"
@@ -31,7 +31,7 @@ export default function Footer() {
             height={45}
             alt="guarderia de gatos en medellin"
           />
-        </Link>
+        </Link> */}
         <Link href="https://www.tiktok.com/@glamto6">
           <Image
             src="/tiktok.webp"

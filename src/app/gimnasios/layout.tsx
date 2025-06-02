@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { montserrat } from "../../app/fonts";
+import FloatingWhatsappButton from "../../../components/FloatWppBtn";
 
 export const metadata: Metadata = {
   title: "Gimnasios para Gatos en Medellín - GLAMTO",

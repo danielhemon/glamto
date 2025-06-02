@@ -38,12 +38,15 @@ export default function Home() {
       <div className="flex-shrink-0 md:w-screen flex items-center justify-around">
         <Section2 />
       </div>
+
       <div className="flex-shrink-0  md:w-screen bg-[#AEBD77] flex items-center justify-center">
         <Section3 />
       </div>
+
       <div className="flex-shrink-0 md:w-screen flex items-center justify-center">
         <Section5 />
       </div>
+
       <div className="flex-shrink-0 md:w-screen flex flex-col md:flex-row items-center justify-end ">
         <Section6 />
         <Footer />
