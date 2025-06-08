@@ -50,6 +50,7 @@ export default function RootLayout({
       </head>
       <body className={`${montserrat.className} antialiased relative`}>
         {children}
+        <FloatingWhatsappButton />
       </body>
     </html>
   );
