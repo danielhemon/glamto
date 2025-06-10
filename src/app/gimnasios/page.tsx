@@ -1,15 +1,15 @@
 import React from "react";
-import SectionCubiculo from "../../../components/SectionCubiculo";
+import VideoGalleryClientWrapper from "../../../components/VideoGalleryClientWrapper";
 
 export default function Gimnasios() {
   return (
-    <main className="flex no-select  flex-col md:flex-row h-full md:h-screen flex-nowrap overflow-y-auto md:overflow-x-auto">
+    <main className="flex no-select flex-col flex-nowrap overflow-y-auto md:overflow-x-auto">
       <div
         id="inicio"
         style={{ backgroundImage: 'url("/layout2.svg")' }}
-        className="bg-cover flex-shrink-0 h-full md:w-screen flex items-center justify-center"
+        className="bg-cover h-full md:w-screen flex items-center justify-center bg-[-650px_center] sm:bg-[-150px_center] "
       >
-        <SectionCubiculo />
+        <VideoGalleryClientWrapper />
       </div>
     </main>
   );

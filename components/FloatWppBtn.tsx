@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
 
 const FloatingWhatsappButton = ({
@@ -6,6 +9,14 @@ const FloatingWhatsappButton = ({
   const whatsappLink = `https://wa.me/message/4Y4RFTTWZYIFK1?text=${encodeURIComponent(
     message
   )}`;
+
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null;
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-center space-y-1">

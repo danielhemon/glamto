@@ -25,14 +25,10 @@ export default function Home() {
     >
       <div
         id="inicio"
-        style={{ backgroundImage: 'url("/section1.svg")' }}
-        className="bg-cover  bg-center flex-shrink-0 h-screen md:h-full md:w-screen flex items-center justify-center relative"
+        className="bg-[url('/section1.svg')] bg-cover bg-center flex-shrink-0 h-screen md:h-full md:w-screen flex items-center justify-center relative bg-[-250px_center]"
       >
-        {/* Overlay oscuro */}
         <div className="absolute inset-0 bg-black/5" />
         <Section1 />
-
-        {/* Contenido (texto y demás) */}
       </div>
 
       <div className="flex-shrink-0 md:w-screen flex items-center justify-around">

@@ -9,5 +9,23 @@ import CardPerson from "./CardPerson";
 import CardPaquete from "./CardPaquete";
 import Footer from "./Footer";
 import SectionCubiculo from "./SectionCubiculo";
+import GimnasiosVideoGallery from "./GimnasiosVideoGallery";
+import FloatingWhatsappButton from "./FloatWppBtn";
+import ClientWrapper from "./WppClientWrapper";
 
-export {Section2, SectionCubiculo, Section1, Section3, Section4, Section5, Section6, CardService, CardPerson, CardPaquete, Footer}
+export {
+  Section2,
+  SectionCubiculo,
+  Section1,
+  Section3,
+  Section4,
+  Section5,
+  Section6,
+  CardService,
+  CardPerson,
+  CardPaquete,
+  Footer,
+  FloatingWhatsappButton,
+  ClientWrapper,
+  GimnasiosVideoGallery,
+};
